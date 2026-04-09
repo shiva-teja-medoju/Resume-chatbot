@@ -46,3 +46,20 @@ This project is an AI-powered chatbot that allows users to upload a PDF (such as
 ├── .env
 ├── requirements.txt
 └── README.md
+
+
+---
+
+## 🔑 Setup Instructions
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/resume-qa-chatbot.git
+cd resume-qa-chatbot
+python -m venv venv
+source venv/bin/activate   # Mac/Linux
+venv\Scripts\activate      # Windows
+pip install -r requirements.txt
+GEMINI_API_KEY=your_api_key_here
+streamlit run app.py
+
